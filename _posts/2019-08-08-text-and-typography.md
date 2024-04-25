@@ -191,10 +191,10 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ![dark mode only](/images/posts/text-and-typography/devtools-dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Video
-
-{% include embed/youtube.html id='Balreaj8Yqs' %}
-
-<iframe src="//player.bilibili.com/player.html?aid=477539707&bvid=BV15K41117Lw&cid=959544936&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+``` text
+{% include embed/bilibili.html id='BV15K41117Lw' %}
+```
+{% include embed/bilibili.html id='BV15K41117Lw' %}
 
 ## Reverse Footnote
 
