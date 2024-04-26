@@ -10,7 +10,7 @@ math: true
 mermaid: true
 image:
   path: /images/posts/text-and-typography/devices-mockup.png
-  lqip: /images/posts/text-and-typography
+  lqip: /images/posts/text-and-typography/devices-mockup.png
   alt: Responsive rendering of Chirpy theme on multiple devices.
 ---
 
