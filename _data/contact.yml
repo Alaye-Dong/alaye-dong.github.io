@@ -28,5 +28,5 @@
 #   url:  ''                  # Fill with your stackoverflow homepage
 
 - type: bilibili
-  icon: "fas fa-bilibili"
+  icon: "fa-brands fa-bilibili"
   url: 'https://space.bilibili.com/316372626?spm_id_from=333.1007.0.0'
