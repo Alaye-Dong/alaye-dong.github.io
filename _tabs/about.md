@@ -1,15 +1,19 @@
 ---
 # the default layout is 'page'
+layout: post
 icon: fas fa-user
 order: 4
+
+author: alaye
+date: 2024-04-26 15:00:00 +0800
+last_modified_at: 2024-04-29 22:00:00 +0800
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
-# 关于我
-这里是 **Alaye Dong**。
-我是一名计算机科学与技术在读本科生，目前我在学习研究Java、Web前端、单片机开发。<br/>
-如果你有如何想和我的探讨的事情，我会非常乐意与你交流，你可以通过Email联系我。[向我发送Email](mailto:alayevast@outlook.com)
+## 关于我
+
+这里是 **Alaye Dong**😊。
+我是一名计算机科学与技术在读本科生，目前我在学习研究Java、Web前端、单片机开发。<br>
+如果你有如何想和我的探讨的事情，我会非常乐意与你交流，你可以通过Email联系我。[<i class="fa-solid fa-envelope"></i>](mailto:alayevast@outlook.com)
 
 ---
 
@@ -21,8 +25,8 @@ order: 4
 
 ## 研究兴趣
 
-- 嵌入式开发
-- 机器人研发
+- 嵌入式
+- 机器人
 - 新能源汽车
 - Web前后端
 
