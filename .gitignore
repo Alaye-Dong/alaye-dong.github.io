@@ -21,3 +21,8 @@ package-lock.json
 assets/js/dist
 
 .obsidian
+
+
+# Misc
+_sass/dist
+assets/js/dist

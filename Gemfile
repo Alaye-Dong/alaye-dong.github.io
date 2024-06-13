@@ -24,4 +24,9 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.8"
 
-gem 'jekyll-compose', group: [:jekyll_plugins]
+# gem 'jekyll-compose', group: [:jekyll_plugins]
+# gem "jekyll-theme-chirpy", "~> 7.0", ">= 7.0.1"
+
+# group :test do
+#   gem "html-proofer", "~> 5.0"
+end
