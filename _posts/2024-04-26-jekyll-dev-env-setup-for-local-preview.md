@@ -1,5 +1,5 @@
 ---
-title: 搭建Jekyll开发环境本地预览项目
+title: 搭建Jekyll开发环境实现本地预览
 author: alaye
 date: 2024-04-26 15:00:00 +0800
 categories:
@@ -12,7 +12,7 @@ render_with_liquid: false
 
 > Jeklly 的一个最好的特点是『关注 blog 本身』。这是指什么呢？简单的说就是写博客的过程被铸造进了 Jekyll 的功能中。你只需简单的管理你电脑中的一个文件夹下的文本文件就可以写文章并方便的在线上发布。与繁琐的配置和维护数据库和基于网站的内容管理系统 (CMS) 相比，这是一个非常受欢迎的改变。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/ZKU5bGJLEotSgYxhXEQc2mPznce.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/ZKU5bGJLEotSgYxhXEQc2mPznce.png)
 
 ---
 
@@ -37,19 +37,19 @@ render_with_liquid: false
 
 进入 [Ruby](https://www.ruby-lang.org/en/downloads/) 官网，选择对应的安装方式，Windows 设备选 `RubyInstaller`，并下载安装。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/SK2qbzThFodmccxstVgc4njSn3e.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/SK2qbzThFodmccxstVgc4njSn3e.png)
 
 `Ruby+Devkit` 中包含了 `Ruby` 和 `RubyGems`，下载并安装 `Ruby+Devkit`。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/EepDbON7yolhk6xrG75cBcjZnFg.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/EepDbON7yolhk6xrG75cBcjZnFg.png)
 
 命令行中分别输入 `ruby -v` 和 `gem -v` 查看版本，确认安装完成。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/EL5AbgSYfozzTPxGtmSc2JgTnsd.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/EL5AbgSYfozzTPxGtmSc2JgTnsd.png)
 
 安装完成后，会自动弹出 `cmd.exe`。如下图所示， 提示安装 `MSYS2`，它是用来编译 `Ruby` 本地包的，我们需要手动输入 `[1,2,3]`，然后回车进行安装。由于网络的原因，可能会安装极慢，甚至安装失败，但是这是必须的步骤，只能多试几次，或者“爬高一点”。这里如果没有弹出命令行 `MSYS2` 安装界面或者把它关掉了，那么可以重新打开 `cmd` 命令行，输入 `ridk install` 来再次进入 MSYS2 安装界面。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/W5bSb2am4okrOAxLQZlcUgtwnze.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/W5bSb2am4okrOAxLQZlcUgtwnze.png)
 
 #### 安装 NodeJS
 
@@ -65,7 +65,7 @@ gem install jekyll
 
 这样就把 jekyll 安装完成了。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/MTNwbbtzmouPgSxJCQTcWnzDnLd.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/MTNwbbtzmouPgSxJCQTcWnzDnLd.png)
 
 ## 本地 Server
 
@@ -73,11 +73,11 @@ gem install jekyll
 
 相关命令只能在一个含有 `Gemfile` 的目录下执行，如项目的根目录。在项目所在的文件夹进入 `cmd`。在项目文件夹文件管理器地址栏输入 `cmd` 并回车。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/YpEvbR9Etotft8xfBMYckbtwn3z.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/YpEvbR9Etotft8xfBMYckbtwn3z.png)
 
 命令行显示的项目文件夹的地址即可。
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/RQZib84A7oLlLixZxTccq2x4nXb.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/RQZib84A7oLlLixZxTccq2x4nXb.png)
 
 ### 安装 bundle
 
@@ -109,11 +109,11 @@ jekyll server
 
 将地址复制粘贴到浏览器，访问生成的本地地址：
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/O8jzbcgKdo0jH6xLZMDcMPz6nQh.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/O8jzbcgKdo0jH6xLZMDcMPz6nQh.png)
 
 成功，大功告成~
 
-![](/assets/img/posts/搭建Jekyll开发环境本地预览项目/M71abr0qXoCkLyx78MkczYKQnKh.png)
+![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/M71abr0qXoCkLyx78MkczYKQnKh.png)
 
 ---
 

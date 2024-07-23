@@ -1,8 +1,8 @@
 ---
-title: Windows任务栏字体颜色
+title: 修改Windows任务栏字体颜色
 description:
 author: alaye
-date: 2024-6-13 01:49:00 +0800
+date: 2024-06-13 01:49:00 +0800
 categories: [Blogging, Tutorial]
 tags: [Windows, Taskbar]
 render_with_liquid: false
@@ -12,7 +12,7 @@ render_with_liquid: false
 
 Windows并不会去根据任务栏背景色吊改变字体颜色，当使用例如[TranslucentTB](https://github.com/TranslucentTB/TranslucentTB)，在一些背景下，导致任务栏暗色时，默认字体显示仍为黑色，导致观察困难，可读性差。所以可以通过修改注册表改变任务栏默认字体颜色。
 
-![1718241252560](/assets/img/posts/Windows任务栏字体颜色/1718241252560.png)
+![1718241252560](/assets/img/posts/2024-06-13-change-windows-taskbar-font-color/1718241252560.png)
 
 ## 修改注册表
 
