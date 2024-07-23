@@ -1,0 +1,5 @@
+# Robots.txt file from https://alaye-dong.github.io/
+# All robots will spider the domain
+
+User-agent: *
+Disallow:
