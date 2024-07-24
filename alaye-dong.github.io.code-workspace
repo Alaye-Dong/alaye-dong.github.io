@@ -4,5 +4,10 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"markdown-image.local.path": "/assets/img/posts",
+		"markdown-image.local.referencePath": "/assets/img/posts/${mdname}/",
+		"markdown-image.base.fileNameFormat": "${mdname}/${prompt}",
+		"markdown-image.base.altFormat": "${filename}"
+	}
 }
