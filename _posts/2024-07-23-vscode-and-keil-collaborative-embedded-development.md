@@ -5,6 +5,9 @@ date: 2024-07-23 20:20:43 +0800
 categories: [Blogging, Tutorial]
 tags: [Keil, VSCode, 嵌入式开发, 智能车]
 render_with_liquid: flase
+image:
+  path: /assets/img/posts/2024-07-23-vscode-and-keil-collaborative-embedded-development/cover.png
+---
 ---
 
 ## 引言
