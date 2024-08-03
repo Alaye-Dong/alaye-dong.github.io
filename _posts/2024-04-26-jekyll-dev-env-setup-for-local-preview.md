@@ -115,6 +115,20 @@ jekyll server
 
 ![](/assets/img/posts/2024-04-26-jekyll-dev-env-setup-for-local-preview/M71abr0qXoCkLyx78MkczYKQnKh.png)
 
+### 配置启动命令文件
+
+为了方便启动`jekyll server`和调试，可以编写一个命令执行文件，之后可以直接双击运行。
+
+```powershell
+start http://127.0.0.1:4000/
+jekyll serve --livereload
+```
+
+> `start http://127.0.0.1:4000/` 启动浏览器并打开本地网址
+> 
+> `--livereload` 在源文件更新后自动刷新本地预览网页
+{: .prompt-tip }
+
 ---
 
 参考引用：
